@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Creativity Art Gallery</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        html, body {
+            height: 100%;
+        }
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background-color: #fffaf3;
+            color: #333;
+            line-height: 1.6;
+            display: flex;
+            flex-direction: column;
+        }
+        header {
+            background-color: #483D8B;
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #6A5ACD;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        section {
+            padding: 40px 20px;
+            text-align: center;
+            flex: 1; /* This pushes the footer to the bottom */
+        }
+        .highlight {
+            color: #6A5ACD;
+            font-weight: bold;
+        }
+        footer {
+            background-color: #eee;
+            color: #555;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Creativity Art Gallery</h1>
+    <p>Where Imagination Meets the Canvas</p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">Gallery</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+</nav>
+
+<section>
+    <h2>Welcome!</h2>
+    <p>This is a simple portfolio website built for artists to showcase their <span class="highlight">paintings</span>, <span class="highlight">sketches</span>, and <span class="highlight">digital art</span>.</p>
+    <p>Created as part of the ICT171 Cloud Server Project.</p>
+</section>
+
+<footer>
+    &copy; 2025 Creativity Art Gallery. Built on AWS EC2.
+</footer>
+
+</body>
+</html>
