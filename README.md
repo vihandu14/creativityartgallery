@@ -101,4 +101,7 @@ AWS EC2 ➡️ Security Groups ➡️ Inbound Rules
 
 <pre>Port 22 (SSH) - for secure terminal access
 Port 80 (HTTP) - for regular website access
-Port 443 (HTTPS) - for secure website access</pre>
+Port 443 (HTTPS) - for secure website access</pre><br>
+
+▪️  The cloud based portfolio website is now completely operational, safe with HTTPS, and accessible through the domain.  
+▪️  ICT171 Cloud Web Server Project is completed and live on the internet.
